@@ -7,7 +7,7 @@ and build for production
 ### Quick start
 
 ```bash
-# clone our repo
+# setup
 git clone https://github.com/500tech/nodejs-express-es6.git   
 cd nodejs-express-es6  
 npm install  

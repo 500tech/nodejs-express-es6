@@ -8,21 +8,17 @@ and build for production
 
 ```bash
 # clone our repo
-git clone https://github.com/500tech/nodejs-express-es6.git 
+git clone https://github.com/500tech/nodejs-express-es6.git   
+cd nodejs-express-es6  
+npm install  
 
-# change directory
-cd nodejs-express-es6
-
-# install the repo with npm
-npm install
-
-# start the server (with nodemon)
+# start the server (starts babel-node with nodemon)
 npm start 
 
 # open in browser
-open http://localhost:3000
+http://localhost:3000
 
-# build for production (dist folder)
+# build for production (output to dist folder)
 npm run build
 
 ```
